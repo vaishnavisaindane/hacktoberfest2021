@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Guess the number</title>
+        <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+        <link rel="stylesheet" href="gtn.css">
+    </head>
+    <body>
+    <div class="container">
+        <h1>Guess the Number</h1>
+        <p>Objective of this Game is to guess a 3 digit number.</br>Hints:
+        <ul>
+           <li>Close : If you guess any digit correctly but in wrong position</li>
+           <li>Match : If you guess any digit correctly and at correct position</li>
+           <li>Nope : If nothing matches</li>
+        </ul>
+        </p>
+        <h3>What is your guess ?<h3>
+
+        </div class="display">
+        <form name="numbers" align="center">
+        <table>
+        <tr>
+            <input type="text" name="display" id="display" disabled>
+        </tr>
+        <tr>
+            <td><input type="button" name="one" value="1" onclick="numbers.display.value+='1'"></td>
+            <td><input type="button" name="two" value="2" onclick="numbers.display.value+='2'"></td>
+            <td><input type="button" name="three" value="3" onclick="numbers.display.value+='3'"></td>
+        </tr>
+        <tr>
+            <td><input type="button" name="four" value="4" onclick="numbers.display.value+='4'"></td>
+            <td><input type="button" name="five" value="5" onclick="numbers.display.value+='5'"></td>
+            <td><input type="button" name="six" value="6" onclick="numbers.display.value+='6'"></td>
+        </tr>
+        <tr>
+            <td><input type="button" name="seven" value="7" onclick="numbers.display.value+='7'"></td>
+            <td><input type="button" name="eight" value="8" onclick="numbers.display.value+='8'"></td>
+            <td><input type="button" name="nine" value="9" onclick="numbers.display.value+='9'"></td>
+        </tr>
+        <tr>
+          <td></td>
+            <td><input type="button" name="zero" value="0" onclick="numbers.display.value+='0'"></td>
+            <td><input type="button" name="back" value="X" id="x"></td>
+        </tr>
+        </table>
+        </div>
+          <input type="button" id="try" value="Try it">
+        </form>
+        <div class="show" disabled></div>
+      </div>
+           <p>@Ajay</p>
+   <script src="gtn.js"></script>
+
+    </body>
+</html>
