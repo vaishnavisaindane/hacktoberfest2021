@@ -1,0 +1,11 @@
+.hello {
+  background-color: red;
+  color: white;
+  margin: 10px 20px;
+}
+
+.world {
+  color: blue;
+  background-color: black;
+  padding: 20px;
+}
