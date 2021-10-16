@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+
+body {
+ background-image:url("https://informaticcoolstuff.files.wordpress.com/2016/01/9550268-question-marks-of-different-colors-drawn-on-a-white-background-stock-photo.jpg?w=1024");
+background-repeat:repeat ;
+text-indent:center;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-size:20px;
+background-attachment:fixed;
+
+}
+h1{
+ text-align:center;
+ font-family: 'Anton', sans-serif;
+ color:#7a38ff;
+}
+h3{
+margin-left: 25%;
+}
+table{
+ margin-left:30%;
+ margin-top:0px;
+}
+input{
+ height:60px;
+ width:60px;
+ font-size:30px;
+ background:none;
+ border:4px solid #5e9cff;
+ color:#4d143d;
+ border-radius:20px;
+ animation-name:colors;
+ animation-iteration-count:infinite ;
+ animation-duration:10s;
+}
+#try{
+ height:40px;
+ width:100px;
+ background:none;
+ border:4px solid #5e9cff;
+ font-size:20px;
+ margin-left:30%;
+ margin-top:5px;
+ border-radius:10px;
+}
+#display{
+ height:40px;
+ width:50%;
+ margin-left:15%;
+}
+.show{
+ display:none;
+ font-size:30px;
+ background:#5e9cff;
+ width:50%;
+ text-align:center;
+ border:4px solid black;
+ border-radius:20px;
+ margin-left:30%;
+ margin-top:20px;
+}
+
+@keyframes colors{
+
+ 0% {border-color:#b0f056;}
+ 25% {border-color:#f5764c;}
+ 50% {border-color:#cc68e8;}
+ 75%{border-color:#68e8e6;}
+}
+#con{
+ text-align:center;
+ font-size:25px;
+ color:#b4a1ff;
+
+}
